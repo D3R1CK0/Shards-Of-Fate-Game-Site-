@@ -1,0 +1,141 @@
+* {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 0;
+  font-family: "Trajan Pro", sans-serif;
+}
+
+.nav-parent {
+  position: relative;
+}
+.logo {
+  position: absolute;
+  margin-left: 40px;
+}
+.nav-logo {
+  width: 100px;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 20px;
+}
+.nav-menu {
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+nav li {
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  color: rgb(147, 4, 4);
+  text-decoration: dotted;
+}
+.homelogo {
+  width: 100%;
+  height: 100%;
+  color: black;
+}
+.home-heading {
+  margin-top: 120px;
+  font-size: 70px;
+  text-align: center;
+}
+.home-parent {
+  margin-top: 60px;
+}
+.home-button1 {
+  background-color: red;
+  padding: 15px;
+  border-radius: 20px;
+  display: inline-block;
+}
+.home-button2 {
+  padding: 15px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 50px;
+}
+#home a {
+  text-decoration: none;
+  color: white;
+}
+#home-parent2 {
+  margin-left: 40px;
+  text-align: center;
+}
+.character-nobg {
+  width: 100%;
+  height: 100%;
+}
+.meet-charhead {
+  text-align: center;
+  font-size: 40px;
+}
+.char-box {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 20px;
+}
+.char1 {
+  width: 330px;
+  height: 360px;
+  border: 1px solid;
+}
+.char2 {
+  width: 330px;
+  height: 360px;
+  border: 1px solid;
+}
+.char3 {
+  width: 330px;
+  height: 360px;
+  border: 1px solid;
+}
+.char4 {
+  width: 330px;
+  height: 360px;
+  border: 1px solid;
+}
+.box-img {
+  width: 100%;
+  height: 100%;
+}
+.char-anim :hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 87, 51, 0.4);
+}
+.para{
+  color: rgb(154, 149, 113);
+}
+.lore-content{
+  margin-left: 40px;
+color: rgb(154, 154, 113);
+}
+.pre-orderlist{
+  text-align: center;
+  margin-top: 45px;
+   
+}
+.pre-item{
+    font-size: 20px;
+    color:rgb(154, 154, 113) ;
+    
+}
+.footer-parent{
+  background-color: rgb(154, 154, 113) ;
+}
+#pre-order a{
+  text-decoration: none;
+  color: white;
+}
