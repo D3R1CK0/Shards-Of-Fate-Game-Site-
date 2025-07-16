@@ -1,0 +1,118 @@
+* {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 0;
+  font-family: "Trajan Pro", sans-serif;
+}
+
+.nav-parent {
+  position: relative;
+}
+.logo {
+  position: absolute;
+  margin-left: 40px;
+}
+.nav-logo {
+  width: 100px;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 20px;
+}
+.nav-menu {
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+nav li {
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  color: rgb(147, 4, 4);
+  text-decoration: dotted;
+}
+.char-parent {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.charimg {
+  width: 45%;
+  height: 650px;
+  position: absolute;
+  right: 0;
+  top: 90px;
+}
+.char-content {
+  color: rgb(154, 154, 113);
+  position: absolute;
+  top: 200px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.stat-parent {
+  position: relative;
+  top: 950px;
+  margin-left: 40px;
+}
+.base-bar {
+  width: 60%;
+  background-color: rgb(52, 51, 51);
+  height: 0.5rem;
+  border-radius: 0.2rem;
+  position: absolute;
+  top: 25px;
+}
+.power-bar{
+  width: 45%;
+  background-color: rgb(154, 154, 113);
+  height: 0.5rem;
+  border-radius: 0.2rem;
+  position: absolute;
+  top: 25px;
+}
+.speed-bar{
+     width: 38%;
+  background-color: rgb(154, 154, 113);
+  height: 0.5rem;
+  border-radius: 0.2rem;
+  position: absolute;
+  top: 25px;
+}
+.control-bar{
+     width:52%;
+  background-color: rgb(154, 154, 113);
+  height: 0.5rem;
+  border-radius: 0.2rem;
+  position: absolute;
+  top: 25px;
+}
+.lore-bar{
+     width:35%;
+  background-color: rgb(154, 154, 113);
+  height: 0.5rem;
+  border-radius: 0.2rem;
+  position: absolute;
+  top: 25px;
+}
+.stat-bar{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 330px;
+}
+.stat-value{
+    position: absolute;
+    left: 58%;
+    font-size: 20px;
+}
