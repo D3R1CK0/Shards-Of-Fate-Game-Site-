@@ -116,3 +116,32 @@ nav a:hover {
     left: 58%;
     font-size: 20px;
 }
+#footer {
+  position: relative;
+  background-color: #0b0b0b;
+  color: #999;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9rem;
+  border-top: 1px solid #222;
+  top: 1000px;
+}
+.icon-container {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.icons {
+  margin-left: 15px;
+  padding: 4px;
+}
+.footer-img{
+  height: 90px;
+}
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  margin-left: 25px;
+  margin-top: 20px;
+}
