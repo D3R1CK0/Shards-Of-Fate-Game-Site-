@@ -6,6 +6,9 @@
   z-index: 0;
   font-family: "Trajan Pro", sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 .nav-parent {
   position: relative;
